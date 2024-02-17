@@ -274,14 +274,14 @@ def pfield(x : np.ndarray,y : np.ndarray, z: np.ndarray, delaysTX : np.ndarray, 
     pitch = param.pitch
 
    #%-- 3) Element width and/or Kerf width (in m)
-    '''if 'width' in param and 'kerf' in param:
+    if 'width' in param and 'kerf' in param:
         assert np.abs(pitch-param.width-param.kerf)<utils.eps('single'), 'The pitch must be equal to (kerf width + element width).'
     elif 'kerf' in param:
         param.width = pitch-param.kerf
     elif 'width' in param:
         param.kerf = pitch-param.width
     else:
-        raise ValueError('An element width (PARAM.width) or kerf width (PARAM.kerf) is required.')'''
+        raise ValueError('An element width (PARAM.width) or kerf width (PARAM.kerf) is required.')
     ElementWidth = param.width
 
 
