@@ -15,5 +15,6 @@ if not interactiveDevelopment:
     from pymust.genscat import genscat
     from pymust.mkmovie import mkmovie
     from pymust.getpulse import getpulse
+    from pymust.mypfield import mypfield
     # Missing functions: genscat, speckletracking, cite + visualsiation
     # Visualisation: pcolor, Doppler color map + transparency, radiofrequency data
