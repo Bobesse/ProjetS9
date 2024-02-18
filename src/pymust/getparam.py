@@ -92,11 +92,11 @@ def getparam(probe : str):
     elif 'PHOQUATOR' == probe:
         # --- Sonde de fou malade ---
         param.fc = 7600000.0
-        param.kerf = 3e-04
-        param.width = 0.0027
-        param.pitch = 0.003
-        param.Nelements = 512
-        param.bandwidth = 77
+        param.kerf = 0
+        param.width = 0.000150
+        param.pitch = 0.000150
+        param.Nelements = 256
+        param.bandwidth = 25
         param.radius = np.inf
         param.height = 0.005
         param.focus = 0.018
